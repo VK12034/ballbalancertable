@@ -1,0 +1,34 @@
+ball balancer build
+output: C:\Users\vishn\bb_cad
+home crank 20.0 deg, platform z 119.444 mm
+
+[ok ] new design document (Unsaved)
+[ok ] user parameters 53 created
+[ok ] base_plate 1 body, 12 sketches
+[ok ] base_stand 1 body
+[ok ] link_1_crank 
+[ok ] link_2_coupler 
+[ok ] tie_rod 
+[ok ] nema17_reference 
+[ok ] motor_spacer 
+[ok ] leg occurrences 10 of 10 added
+[ok ] platform_frame 1 body, frame 209.0 x 163.0 mm
+[ok ] touch_panel_8p4 
+[ok ] ball_1in 
+[ok ] retainer_clip 
+[ok ] retainer clips 3 of 3 extra
+[ok ] kinematic envelope round trip 2.84e-14 mm, 0 poses outside travel
+[ok ] fastener access 0 clearances under 0.5 mm
+[ok ] interference analysis 0 overlapping pairs
+[ok ] interference analysis 0 overlapping pairs
+[ok ] interference analysis 0 overlapping pairs
+[ok ] interference analysis 0 overlapping pairs
+[ok ] actuator travel sweep 3 of 3 poses reached
+[ok ] materials pla=ABS Plastic steel=Stainless Steel
+[ok ] component inventory 11 components
+[ok ] viewport captures 4 of 4
+[ok ] export f3d C:\Users\vishn\bb_cad\source\BallBalancer.f3d
+[ok ] export step C:\Users\vishn\bb_cad\step\BallBalancer.step
+[ok ] export stl 7 of 7 printed parts
+[ok ] export dxf 4 profiles
+[ok ] cloud save BallBalancer in ?

@@ -1,0 +1,488 @@
+{
+  "steps": [
+    {
+      "name": "new design document",
+      "ok": true,
+      "detail": "(Unsaved)"
+    },
+    {
+      "name": "user parameters",
+      "ok": true,
+      "detail": "53 created"
+    },
+    {
+      "name": "base_plate",
+      "ok": true,
+      "detail": "1 body, 12 sketches"
+    },
+    {
+      "name": "base_stand",
+      "ok": true,
+      "detail": "1 body"
+    },
+    {
+      "name": "link_1_crank",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "link_2_coupler",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "tie_rod",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nema17_reference",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "motor_spacer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "leg occurrences",
+      "ok": true,
+      "detail": "10 of 10 added"
+    },
+    {
+      "name": "platform_frame",
+      "ok": true,
+      "detail": "1 body, frame 209.0 x 163.0 mm"
+    },
+    {
+      "name": "touch_panel_8p4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ball_1in",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "retainer_clip",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "retainer clips",
+      "ok": true,
+      "detail": "3 of 3 extra"
+    },
+    {
+      "name": "kinematic envelope",
+      "ok": true,
+      "detail": "round trip 2.84e-14 mm, 0 poses outside travel"
+    },
+    {
+      "name": "fastener access",
+      "ok": true,
+      "detail": "0 clearances under 0.5 mm"
+    },
+    {
+      "name": "interference analysis",
+      "ok": true,
+      "detail": "0 overlapping pairs"
+    },
+    {
+      "name": "interference analysis",
+      "ok": true,
+      "detail": "0 overlapping pairs"
+    },
+    {
+      "name": "interference analysis",
+      "ok": true,
+      "detail": "0 overlapping pairs"
+    },
+    {
+      "name": "interference analysis",
+      "ok": true,
+      "detail": "0 overlapping pairs"
+    },
+    {
+      "name": "actuator travel sweep",
+      "ok": true,
+      "detail": "3 of 3 poses reached"
+    },
+    {
+      "name": "materials",
+      "ok": true,
+      "detail": "pla=ABS Plastic steel=Stainless Steel"
+    },
+    {
+      "name": "component inventory",
+      "ok": true,
+      "detail": "11 components"
+    },
+    {
+      "name": "viewport captures",
+      "ok": true,
+      "detail": "4 of 4"
+    },
+    {
+      "name": "export f3d",
+      "ok": true,
+      "detail": "C:\\Users\\vishn\\bb_cad\\source\\BallBalancer.f3d"
+    },
+    {
+      "name": "export step",
+      "ok": true,
+      "detail": "C:\\Users\\vishn\\bb_cad\\step\\BallBalancer.step"
+    },
+    {
+      "name": "export stl",
+      "ok": true,
+      "detail": "7 of 7 printed parts"
+    },
+    {
+      "name": "export dxf",
+      "ok": true,
+      "detail": "4 profiles"
+    },
+    {
+      "name": "cloud save",
+      "ok": true,
+      "detail": "BallBalancer in ?"
+    }
+  ],
+  "warnings": [],
+  "errors": [],
+  "parameters": {
+    "base_motor_r": "78.0 mm",
+    "platform_joint_r": "95.0 mm",
+    "crank_len": "55.0 mm",
+    "link2_len": "73.0 mm",
+    "tie_rod_len": "22.0 mm",
+    "motor_shaft_z": "35.0 mm",
+    "crank_home_angle": "20.0 deg",
+    "crank_min_angle": "-20.0 deg",
+    "crank_max_angle": "60.0 deg",
+    "panel_w": "191.0 mm",
+    "panel_h": "145.0 mm",
+    "panel_t": "1.8 mm",
+    "frame_border": "9.0 mm",
+    "frame_t": "6.0 mm",
+    "panel_recess": "2.0 mm",
+    "ear_r": "11.0 mm",
+    "base_plate_r": "106.0 mm",
+    "base_plate_t": "6.0 mm",
+    "stand_r": "95.0 mm",
+    "stand_h": "55.0 mm",
+    "stand_wall": "3.0 mm",
+    "stand_deck_t": "4.0 mm",
+    "stand_bolt_r": "70.0 mm",
+    "nema_sq": "42.3 mm",
+    "nema_bolt": "31.0 mm",
+    "nema_pilot": "22.0 mm",
+    "nema_len": "48.0 mm",
+    "nema_shaft_d": "5.0 mm",
+    "nema_shaft_len": "24.0 mm",
+    "flange_t": "6.0 mm",
+    "flange_h": "62.0 mm",
+    "flange_w": "50.0 mm",
+    "spacer_t": "5.0 mm",
+    "crank_hub_d": "20.0 mm",
+    "crank_hub_w": "10.0 mm",
+    "crank_arm_w": "14.0 mm",
+    "crank_arm_t": "8.0 mm",
+    "knee_boss_d": "14.0 mm",
+    "coupler_w": "14.0 mm",
+    "coupler_t": "8.0 mm",
+    "tie_rod_d": "6.0 mm",
+    "tie_rod_ball_d": "8.0 mm",
+    "m3_clear": "3.4 mm",
+    "m4_clear": "4.5 mm",
+    "m3_insert_d": "4.0 mm",
+    "m3_insert_depth": "6.0 mm",
+    "ball_d": "25.4 mm",
+    "clip_l": "18.0 mm",
+    "clip_w": "10.0 mm",
+    "clip_t": "6.0 mm",
+    "coupler_len": "link2_len + tie_rod_len",
+    "frame_w": "panel_w + 2 * frame_border",
+    "frame_h": "panel_h + 2 * frame_border"
+  },
+  "home": {
+    "crank_angle_deg": 20.0,
+    "platform_z_mm": 119.443665191864,
+    "knee_mm": [
+      [
+        26.316905856775037,
+        0.0,
+        53.811107882911784
+      ],
+      [
+        -13.158452928387513,
+        22.791109020970662,
+        53.811107882911784
+      ],
+      [
+        -13.158452928387531,
+        -22.79110902097065,
+        53.811107882911784
+      ]
+    ],
+    "ball_joint_mm": [
+      [
+        95.0,
+        0.0,
+        119.443665191864
+      ],
+      [
+        -47.49999999999998,
+        82.27241335952168,
+        119.443665191864
+      ],
+      [
+        -47.50000000000004,
+        -82.27241335952165,
+        119.443665191864
+      ]
+    ]
+  },
+  "kinematics": {
+    "ball_joint_z_range_mm": [
+      81.82144942604043,
+      166.56440620937082
+    ],
+    "heave_mm": 84.74295678333038,
+    "home_platform_z_mm": 119.443665191864,
+    "ik_round_trip_error_mm": 2.842170943040401e-14,
+    "tilt_envelope_deg": 15,
+    "poses_outside_travel": 0,
+    "first_failures": [],
+    "microstep_joint_lift_mm": 0.14017779617267934,
+    "microstep_platform_tilt_deg": 0.08454305550712457
+  },
+  "fastener_access": [
+    {
+      "fastener": "M4 x 25 knee pivot",
+      "note": "coupler inner face to crank arm outer face",
+      "clearance_mm": 2.0
+    },
+    {
+      "fastener": "M4 x 20 crank clamp",
+      "note": "crank hub outer face to flange inner face",
+      "clearance_mm": 1.5
+    },
+    {
+      "fastener": "NEMA 17 shaft engagement in crank hub",
+      "note": "shaft is 24.0 mm long, needs to span 22.5 mm",
+      "clearance_mm": 1.5
+    },
+    {
+      "fastener": "M3 x 8 base plate to stand",
+      "note": "driven from inside the stand, bolt circle r = 70.0 mm",
+      "clearance_mm": 22.0
+    }
+  ],
+  "interference": [],
+  "pose_sweep": {
+    "fully down": {
+      "crank_deg": -20.0,
+      "platform_z_mm": 81.82144942604043,
+      "interference_pairs": 0,
+      "pairs": []
+    },
+    "home": {
+      "crank_deg": 20.0,
+      "platform_z_mm": 119.443665191864,
+      "interference_pairs": 0,
+      "pairs": []
+    },
+    "fully up": {
+      "crank_deg": 59.99999999999999,
+      "platform_z_mm": 166.56440620937082,
+      "interference_pairs": 0,
+      "pairs": []
+    }
+  },
+  "materials": {
+    "pla": "ABS Plastic",
+    "steel": "Stainless Steel",
+    "panel": "ABS Plastic"
+  },
+  "components": [
+    {
+      "component": "base_plate",
+      "bodies": 1,
+      "mass_g": 269.68923075933776,
+      "volume_mm3": 254423.80260314883,
+      "pla_mass_g": 315.48551522790456,
+      "pla_mass_at_20pct_infill_g": 119.88449578660374,
+      "size_mm": [
+        212.01999999999998,
+        212.01999999999998,
+        68.02000000000001
+      ]
+    },
+    {
+      "component": "base_stand",
+      "bodies": 1,
+      "mass_g": 212.63033877938378,
+      "volume_mm3": 200594.65922583378,
+      "pla_mass_g": 248.73737744003387,
+      "pla_mass_at_20pct_infill_g": 94.52020342721288,
+      "size_mm": [
+        190.01999999999998,
+        190.01999999999998,
+        55.02000000000001
+      ]
+    },
+    {
+      "component": "link_1_crank",
+      "bodies": 1,
+      "mass_g": 8.861818070644516,
+      "volume_mm3": 8360.205727023129,
+      "pla_mass_g": 10.366655101508679,
+      "pla_mass_at_20pct_infill_g": 3.939328938573298,
+      "size_mm": [
+        71.99546991374342,
+        20.019999999999996,
+        10.019999999999998
+      ]
+    },
+    {
+      "component": "link_2_coupler",
+      "bodies": 1,
+      "mass_g": 9.781073923061633,
+      "volume_mm3": 9227.428229303427,
+      "pla_mass_g": 11.44201100433625,
+      "pla_mass_at_20pct_infill_g": 4.347964181647775,
+      "size_mm": [
+        87.02,
+        14.020000000000003,
+        8.02
+      ]
+    },
+    {
+      "component": "tie_rod",
+      "bodies": 1,
+      "mass_g": 4.775560279235362,
+      "volume_mm3": 596.9450349044203,
+      "pla_mass_g": 0.7402118432814812,
+      "pla_mass_at_20pct_infill_g": 0.28128050044696284,
+      "size_mm": [
+        19.020000000000003,
+        8.02,
+        8.02
+      ]
+    },
+    {
+      "component": "nema17_reference",
+      "bodies": 1,
+      "mass_g": 696.6252352962982,
+      "volume_mm3": 87078.15441203729,
+      "pla_mass_g": 107.97691147092623,
+      "pla_mass_at_20pct_infill_g": 41.03122635895197,
+      "size_mm": [
+        42.31999999999999,
+        42.31999999999999,
+        72.02000000000001
+      ]
+    },
+    {
+      "component": "motor_spacer",
+      "bodies": 1,
+      "mass_g": 7.088737070582329,
+      "volume_mm3": 6687.487802436161,
+      "pla_mass_g": 8.292484875020838,
+      "pla_mass_at_20pct_infill_g": 3.1511442525079185,
+      "size_mm": [
+        42.31999999999999,
+        42.31999999999999,
+        5.02
+      ]
+    },
+    {
+      "component": "platform_frame",
+      "bodies": 1,
+      "mass_g": 70.37636831974987,
+      "volume_mm3": 66392.80030165083,
+      "pla_mass_g": 82.32707237404702,
+      "pla_mass_at_20pct_infill_g": 31.284287502137868,
+      "size_mm": [
+        209.55742994994236,
+        186.5648267190433,
+        6.020000000000001
+      ]
+    },
+    {
+      "component": "touch_panel_8p4",
+      "bodies": 1,
+      "mass_g": 52.842060000000004,
+      "volume_mm3": 49851.00000000001,
+      "pla_mass_g": 61.81524000000001,
+      "pla_mass_at_20pct_infill_g": 23.489791200000003,
+      "size_mm": [
+        191.02,
+        145.02,
+        1.8200000000000003
+      ]
+    },
+    {
+      "component": "ball_1in",
+      "bodies": 1,
+      "mass_g": 68.6419731684077,
+      "volume_mm3": 8580.246646050962,
+      "pla_mass_g": 10.639505841103194,
+      "pla_mass_at_20pct_infill_g": 4.0430122196192135,
+      "size_mm": [
+        25.4,
+        25.4,
+        25.4
+      ]
+    },
+    {
+      "component": "retainer_clip",
+      "bodies": 1,
+      "mass_g": 1.06848,
+      "volume_mm3": 1008.0000000000002,
+      "pla_mass_g": 1.2499200000000004,
+      "pla_mass_at_20pct_infill_g": 0.47496960000000016,
+      "size_mm": [
+        10.02,
+        18.02,
+        6.020000000000001
+      ]
+    }
+  ],
+  "views": [
+    "views/iso.png",
+    "views/front.png",
+    "views/side.png",
+    "views/top.png"
+  ],
+  "exports": {
+    "f3d": "source/BallBalancer.f3d",
+    "step": "step/BallBalancer.step",
+    "stl": [
+      "mesh/base_plate.stl",
+      "mesh/base_stand.stl",
+      "mesh/link_1_crank.stl",
+      "mesh/link_2_coupler.stl",
+      "mesh/motor_spacer.stl",
+      "mesh/platform_frame.stl",
+      "mesh/retainer_clip.stl"
+    ],
+    "dxf": [
+      "dxf/base_plate.dxf",
+      "dxf/platform_frame.dxf",
+      "dxf/link_1_crank.dxf",
+      "dxf/link_2_coupler.dxf"
+    ]
+  },
+  "fusion_doc": {
+    "name": "BallBalancer",
+    "id": "C:/Users/vishn/AppData/Local/Autodesk/Autodesk Fusion 360/U4H9PYK9NC44XWW5/W.login/F/_BallBalancer.22f0df7d-0cbf-4dad-a939-8fb79331293a.f3d",
+    "version": 1,
+    "dataFile_error": "2 : InternalValidationError : res"
+  },
+  "ok": true
+}

@@ -1,0 +1,10 @@
+{
+    "autodeskProduct": "Fusion360",
+    "type": "script",
+    "author": "Vishnu Konga",
+    "description": {
+        "": "Builds, checks and exports the 3RRS ball balancer."
+    },
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}
