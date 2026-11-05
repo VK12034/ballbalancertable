@@ -1,0 +1,24 @@
+# Normalise line endings for text we edit
+*.md        text eol=lf
+*.py        text eol=lf
+*.ino       text eol=lf
+*.h         text eol=lf
+*.cpp       text eol=lf
+*.json      text eol=lf
+*.manifest  text eol=lf
+
+# CAD and renders are binary. Marking them stops git trying to diff or merge
+# them, and stops line ending translation corrupting them.
+#
+# Git LFS is deliberately not used. The whole cad/ directory is about 2 MB and
+# the largest single file is the 534 KB Fusion archive, which is well inside
+# what plain git handles comfortably. LFS would add a dependency and burn
+# quota for no benefit at this size. If the design grows past tens of
+# megabytes, revisit it.
+*.f3d   binary
+*.f3z   binary
+*.step  binary
+*.stp   binary
+*.stl   binary
+*.dxf   binary
+*.png   binary

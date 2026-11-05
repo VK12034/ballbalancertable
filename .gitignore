@@ -1,0 +1,24 @@
+# Arduino build output
+build/
+*.hex
+*.elf
+*.bin
+
+# Fusion backups and local caches
+*.f3d.bak
+*.lck
+AutodeskBackup/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local toolchain, see firmware/README.md
+acli/
