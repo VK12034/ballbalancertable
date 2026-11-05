@@ -1,0 +1,28 @@
+Ball Balancer
+=============
+
+This project is a reimplementation of the "Ball Balancer" project by
+aaedmusa, published on Instructables on 26 April 2023.
+
+    Ball Balancer, by aaedmusa
+    https://www.instructables.com/Ball-Balancer/
+    Licensed CC BY-NC-SA 4.0
+
+The mechanism, the electronics selection, the pin assignments, the control
+approach and the fastener schedule all come from that write-up. The CAD and
+the firmware in this repository were written from scratch against the
+published description.
+
+No files from the original project are redistributed here. No STL, no Fusion
+archive and no source file from the author's own repository appears in this
+repository. docs/source-and-assumptions.md sets out exactly which details
+come from the source and which were decided here.
+
+The author's GitHub repository for this project carries no licence file,
+which under GitHub's terms reserves all rights. None of that code is used or
+reproduced.
+
+Because this work is derived from a CC BY-NC-SA 4.0 source, the CAD and
+documentation here carry the same licence. See LICENSE-CC-BY-NC-SA-4.0.md.
+The firmware is original work and is offered under the MIT licence in
+LICENSE.
